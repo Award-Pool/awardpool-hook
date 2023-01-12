@@ -1,6 +1,11 @@
 # awardpool-hook
 Award Pool Verification JavaScript
 
+When you create an action with a webhook, we will automatically append UID (?APuid=value) to any link provided.
+This UID valueneeds to be temporarily stored on the users arrival.
+The format of the URL on the purchase completion page must be formatted as follows using the ?APuid=value, as well as adding the javascript on the page.
+There’s a number of different ways that this javascript can execute - the default will be on page load.
+
 The code is a JavaScript script that interacts with a webhook belonging to an Award Pool service. The script is responsible for completing an action and grants points to a user when it is executed.
 
 It has two main functions, apHook() and apTimer(), and one additional function APScroll()

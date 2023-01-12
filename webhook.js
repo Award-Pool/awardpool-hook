@@ -3,8 +3,7 @@ function apHook() {
   //      AWARD POOL - Create Amazing
   //        /\__/\   - js by @rUv
   //       ( o.o  )  - v1.0.0
-  //         >^<     - https://github.com/awardpool/awardpool-hook
-
+  //         >^<     - https://github.com/Award-Pool/awardpool-hook
 
 // Set Timer in Seconds to use with apTimer()
   const timer = 25;
